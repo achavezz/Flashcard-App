@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/newpasstxt"
+            android:layout_width="110sp"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="4dp"
+            android:paddingTop="8dp"
+            android:text="New Password:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/newpassInput"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="new"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/oldpasstxt"
+            android:layout_width="110sp"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="4dp"
+            android:paddingTop="8dp"
+            android:text="Old Password:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/oldpassInput"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="old"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/errorMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#F44336"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:padding="14dp"
+        android:text="Update"
+        app:cornerRadius="30px" />
+</LinearLayout>

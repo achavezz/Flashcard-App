@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/homepageBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/hpButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:padding="14dp"
+        android:text="Deck Configuration"
+        android:textSize="14sp"
+        app:cornerRadius="20px" />
+
+    <Button
+        android:id="@+id/hpButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:padding="14dp"
+        android:text="Account Settings"
+        android:textSize="14sp"
+        app:cornerRadius="20px" />
+
+    <Button
+        android:id="@+id/hpButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="100dp"
+        android:padding="14dp"
+        android:text="Log Out"
+        android:textSize="14sp"
+        app:cornerRadius="20px" />
+</LinearLayout>
